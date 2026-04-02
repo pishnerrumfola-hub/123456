@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  .prose {
+    @apply text-slate-600 leading-relaxed;
+  }
+  .prose p {
+    @apply mb-4;
+  }
+  .prose strong {
+    @apply text-slate-900 font-bold;
+  }
+  .prose ul {
+    @apply list-disc pl-5 mb-4;
+  }
+  .prose ol {
+    @apply list-decimal pl-5 mb-4;
+  }
+}
